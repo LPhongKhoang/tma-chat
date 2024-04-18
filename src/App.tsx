@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/tma-chat'>
             <Routes>
             <Route path="/" element={<Layout />}>
                 <Route index path="" element={<Home/>} />

@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './pages/Home.tsx'
 import './index.css'
 import WebApp from '@twa-dev/sdk';
+import App from './App';
 
 WebApp.ready();
 

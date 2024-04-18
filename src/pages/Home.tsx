@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { BackButton, MainButton } from '@twa-dev/sdk/react'
 import WebApp from '@twa-dev/sdk'
 
 function Home() {
@@ -9,11 +8,7 @@ function Home() {
 
   return (
     <>
-      <h1>Home page 122</h1>
-      <div>
-        <BackButton onClick={() => window.history.back()} />
-        <MainButton text="Submit ABC" onClick={() => alert('submitted: ' + count)} />
-      </div>
+      <h1>Home page</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -22,7 +17,7 @@ function Home() {
         {/* Here we add our button with alert callback */}
       <div className="card">
         <button onClick={() => WebApp.showAlert(`Lucas Hello World! Current count is ${count}`)}>
-            Show Alert
+            Show Alert 12
         </button>
       </div>
     </>
