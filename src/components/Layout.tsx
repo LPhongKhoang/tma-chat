@@ -20,6 +20,9 @@ export default function Layout() {
                 <li>
                     <Link to="/about">About</Link>
                 </li>
+                <li>
+                    <Link to="/chat">Chat</Link>
+                </li>
             </ul>
             
       </nav>

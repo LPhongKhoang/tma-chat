@@ -5,6 +5,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import About from './pages/About';
+import MyChat from './pages/MyChat';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
                 <Route index path="" element={<Home/>} />
                 <Route path="dashboard" element={<Dashboard />} />
                 <Route path="about" element={<About />} />
+                <Route path="chat" element={<MyChat />} />
             </Route>
             </Routes>
         </BrowserRouter>
