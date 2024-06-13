@@ -1,19 +1,28 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 400; */
+  margin:0;
+  padding:0;
 
-  color-scheme: light dark;
+  /* color-scheme: light dark;
   color: var(--tg-theme-text-color, #a4a4a4);
-  background-color: var(--tg-theme-bg-color, #2e62ac);
+  background-color: var(--tg-theme-bg-color, #fff);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
-a {
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /*Prevent body from scrolling*/
+}
+
+/* a {
   font-weight: 500;
   color: #339a28;
   text-decoration: inherit;
@@ -65,4 +74,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
